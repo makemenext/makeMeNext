@@ -1,16 +1,15 @@
 import React from "react";
 import "../../assets/styles/mobile/demoM.css";
 
-function DemoM() {
+function Approutes() {
   return (
-    <div>
+    <div className="container">
       <strong>Mobile component</strong>
       <div className="mobileContainer">
-        This is a demo component rendering css from (relative
-        path)"./styles/mobile/demoM.css"
+        All the mobile associated components will be rendered here.
       </div>
     </div>
   );
 }
 
-export default DemoM;
+export default Approutes;

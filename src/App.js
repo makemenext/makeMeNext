@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import DemoD from "./components/desktop/DemoD";
-import DemoM from "./components/mobile/DemoM";
+import Webroutes from "./components/desktop/Webroutes";
+import Approutes from "./components/mobile/Approutes";
+import "./assets/styles/desktop/global.css"
+import "./assets/styles/mobile/global.css"
 
 function App() {
   const [screenWidth, setInnerWidth] = useState(0);
@@ -16,9 +18,9 @@ function App() {
       {screenWidth == 0 ? (
         ""
       ) : screenWidth <= 700 ? (
-        <DemoM />
+        <Approutes />
       ) : (
-        <DemoD />
+        <Webroutes />
       )}
     </div>
   );
