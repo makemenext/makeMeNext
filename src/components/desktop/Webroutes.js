@@ -1,6 +1,10 @@
 import React from "react";
 import "../../assets/styles/desktop/demoD.css";
 
+// import { BrowserRouter as Router} from "react-router-dom";
+
+
+
 function Webroutes() {
   return (
     <div className="container">
@@ -8,6 +12,7 @@ function Webroutes() {
       <div className="desktopContainer">
         All the dekstop associated components will be rendered here.
       </div>
+
     </div>
   );
 }

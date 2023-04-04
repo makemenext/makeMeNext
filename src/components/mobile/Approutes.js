@@ -1,13 +1,14 @@
-import React from "react";
-import "../../assets/styles/mobile/demoM.css";
+import React, {useEffect} from "react";
+import Login from "./Login";
+import Navbar from "./Navbar";
+import "./demo.css";
 
 function Approutes() {
+
   return (
     <div className="container">
-      <strong>Mobile component</strong>
-      <div className="mobileContainer">
-        All the mobile associated components will be rendered here.
-      </div>
+      <Navbar />
+
     </div>
   );
 }
