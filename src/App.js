@@ -2,7 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Webroutes from "./components/desktop/Webroutes";
 import Approutes from "./components/mobile/Approutes";
+// import Navweb from "./components/desktop/Navweb";
+// import Navapp from "./components/mobile/Navapp"; 
+// import Header from "./components/desktop/Header"
+
+
 import "./assets/styles/desktop/global.css"
+import "./assets/styles/desktop/Navweb.css"
 import "./assets/styles/mobile/global.css"
 
 function App() {
@@ -19,9 +25,11 @@ function App() {
         ""
       ) : screenWidth <= 700 ? (
         <Approutes />
+        
       ) : (
         <Webroutes />
-      )}
+        
+      )}  
     </div>
   );
 }

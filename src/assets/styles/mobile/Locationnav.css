@@ -1,0 +1,42 @@
+.top-nav{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 68px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.loc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.arrow{
+    width: 24px;
+    height: 24px;
+}
+
+.right-nav{
+    margin-right: 15px;
+}
+
+.user{
+    width: 35px;
+    height: 30px;
+    margin-right: 16px;
+}
+
+.cart{
+    width: 35px;
+    height: 30px;
+    margin-right: -5px;
+}

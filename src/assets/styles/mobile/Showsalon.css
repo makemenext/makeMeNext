@@ -1,0 +1,64 @@
+.main-div{
+    width: 310px;
+    height: 234px;
+    /* border: 2px solid red; */
+    background: #ECEFFD;
+    border-radius: 10px;
+}
+
+.salon-img{
+    width: 307px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.info-section{
+    /* border: 2px solid green ;  */
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+
+.salon-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 28px;
+    margin-left: 8px;
+
+}
+
+.salon-distance{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 2px;
+    margin-top: 1px;
+}
+
+.icon{
+    margin-top: 1px;
+}
+
+.salon-type{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 8px;
+}
+
+.adress{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 8px;
+}

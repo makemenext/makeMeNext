@@ -1,0 +1,127 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.wrapper{
+      overflow-x: hidden;
+      overflow-y: scroll;
+}
+
+.top-div{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  align-items: center;
+}
+
+.barber-img{
+  width: 231px;
+  height: 159px;
+  margin: 13px;
+}
+
+.login-acc{
+  margin-top: 8px;
+  /* margin-bottom: 21px; */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.input-div{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  align-items: center;
+}
+
+.input-btn{
+   margin-top: 23px;
+   /* border: 2px solid red; */
+   width: 326px;
+   background: #D9D9D9;
+   border-radius: 14px;
+   height: 45px;
+   display: flex;
+   /* gap: 0.81em; */
+   /* padding: 10px 10px; */
+   flex-direction: row;
+   align-items: center;
+   /* width: auto; */
+
+}
+
+.react-icon{
+   width: 30px;
+  height: 24px; 
+  padding-left: 0.7rem;
+}
+.input-text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  /* text-align: center; */
+  background: #D9D9D9;
+  border: none;
+  outline: none;
+  size: auto;
+  width: 256px;
+  color: black;
+  
+}
+
+  ::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+
+  :-ms-input-placeholder { 
+    color: black;
+  }
+
+  ::-ms-input-placeholder { 
+    color: black;
+  }
+
+.frgt-pass{
+  display: flex;
+  justify-content:flex-end;
+  width: 326px;
+  margin: 11px;
+}
+
+.frgt-pass a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.login-btn{
+  margin-top: 32px;
+  width: 120px;
+  height: 42px;
+  background: #D9D9D9;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-design{
+  font-family:'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  background: none;
+  border: none;
+}
