@@ -76,6 +76,7 @@
     
   }
   
+<<<<<<< HEAD
     ::placeholder { 
       color: black;
       opacity: 1; 
@@ -88,6 +89,20 @@
     ::-ms-input-placeholder { 
       color: black;
     }
+=======
+  ::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+  
+  :-ms-input-placeholder { 
+    color: black;
+  }
+  
+  ::-ms-input-placeholder { 
+    color: black;
+  }
+>>>>>>> 9fccbb808d655d217dbca2dd1f3625b2e9c22004
   
   .frgt-pass{
     display: flex;
@@ -118,7 +133,11 @@
     justify-content: center;
   }
   .btn-design{
+<<<<<<< HEAD
     font-family:'Poppins';
+=======
+    font-family: 'Poppins';
+>>>>>>> 9fccbb808d655d217dbca2dd1f3625b2e9c22004
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
