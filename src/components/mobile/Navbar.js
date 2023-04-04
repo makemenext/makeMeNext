@@ -1,14 +1,8 @@
 import React, { useState, useEffect } from "react";
-
-
 import * as FaIcons from "react-icons/fa"; 
 import * as AiIcons from "react-icons/ai";
-
 import { IconContext } from "react-icons";
-
-
 import { SidebarData } from "./NavBarData";
-
 import "../../assets/styles/mobile/Navbar.css";
 
 export default function Navbar() {
@@ -28,7 +22,7 @@ export default function Navbar() {
           </a>
         </div>
         
-        <div style={{opacity: sidebar ? "0.7" : "1"}}>
+        <div style={{opacity: sidebar ? "0.5" : "1"}}>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
       1500s, when an unknown printer took a galley of type and scrambled it to
