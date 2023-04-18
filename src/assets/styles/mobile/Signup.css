@@ -1,0 +1,136 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.wrapper{
+      overflow-x: hidden;
+      overflow-y: scroll;
+}
+
+.top-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barber-img{
+  width: 231px;
+  height: 159px;
+  margin: 13px;
+}
+
+.signup-acc{
+  margin-top: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.input-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-btn{
+   margin-top: 23px;
+   width: 326px;
+   background: #D9D9D9;
+   border-radius: 14px;
+   height: 45px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+}
+
+.react-icon{
+   width: 30px;
+  height: 24px; 
+  padding-left: 0.7rem;
+}
+.input-text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  background: #D9D9D9;
+  border: none;
+  outline: none;
+  size: auto;
+  width: 256px;
+  color: black;
+  
+}
+
+  ::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+
+  :-ms-input-placeholder { 
+    color: black;
+  }
+
+  ::-ms-input-placeholder { 
+    color: black;
+  }
+.signup-btn{
+  margin-top: 32px;
+  width: 120px;
+  height: 42px;
+  background:rgba(217, 217, 217, 1);
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-design{
+  font-family:'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  background: none;
+  border: none;
+}
+
+
+.signup-container-login-link{
+  
+  font-family: 'Poppins';
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+
+color: #000000;
+
+}
+.signup-btn-gg{
+  margin-top: 32px;
+  width: 210px;
+  height: 42px;
+  background: #CCD4FE;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.react-google{
+  width: 30px;
+  height: 24px; 
+  /* padding-left: 0.7rem; */
+  padding-top: 3.5px;
+
+}
