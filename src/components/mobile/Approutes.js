@@ -1,14 +1,15 @@
 import React, {useEffect} from "react";
 import Loginform from "./Loginform";
-import Navbar from "./Navbar";
+import Header from "./Header";
+
 import "./demo.css";
 
 function Approutes() {
 
   return (
     <div className="container">
-      <Navbar />
-       <Loginform/>
+      <Header></Header>
+      
     </div>
   );
 }

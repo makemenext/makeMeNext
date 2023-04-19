@@ -1,23 +1,31 @@
 :root {
-    --navBg: #060b26;
+    --navBg: #060b26; 
   }
   
   .navbar {
-    background-color: var(--navBg);
+    /* background-color: var(--navBg);    */
     height: 80px;
     display: flex;
     justify-content: end;
     align-items: center;
+    /* color: black;  */
   }
   
   .menu-bars {
     margin-right: 2rem;
     font-size: 2rem;
     background: none;
+    color: black
+  }
+
+  .bars{
+    color: rgb(23 24 23);
+    color-scheme: black;
+    background-color: black; 
   }
   
   .nav-menu {
-    background-color: var(--navBg);
+    background-color: var(--navBg); 
     width: 250px;
     height: 100vh;
     display: flex;
