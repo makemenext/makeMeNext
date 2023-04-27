@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import Validation from "./Validation";
-import "../../assets/styles/mobile/Login.css";
+import "../../assets/styles/mobile/login.css";
 import "../../assets/styles/mobile/global.css";
 import headimage from "../../assets/images/login.jpeg";
 
