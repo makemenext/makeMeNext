@@ -1,3 +1,7 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
 .main-div{
     width: 310px;
     height: 234px;
