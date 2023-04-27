@@ -7,9 +7,7 @@
 }
 
 .main-div{
-    background: linear-gradient(180deg, #CFDDFF 44.35%, rgba(234, 237, 255, 0) 100%);
-    border: 1px solid rgba(0, 0, 0, 0.09);
-    border-radius: 14px;
+    background: #ECEFFD;
     width: 338px;
     height: 248px;
     display: flex;
