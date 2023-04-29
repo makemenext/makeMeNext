@@ -1,10 +1,11 @@
 import React, {useEffect} from "react";
-import Loginform from "./Loginform";
+// import Loginform from "./Loginform";
 import Header from "./Header";
 import Showsalon from "./Showsalon";
-import Changingtext from "./Changingtext"
-import Card from "./Card";
+// import Changingtext from "./Changingtext"
+// import Card from "./Card";
 import "./demo.css";
+import Offers from "./Offers";
 
 function Approutes() {
 
@@ -14,7 +15,8 @@ function Approutes() {
        {/* <Showsalon></Showsalon>  */}
         {/* <Changingtext></Changingtext> 
          */}
-         <Card></Card>
+         {/* <Card></Card> */}
+         <Offers></Offers>
       
     </div>
   );
