@@ -12,6 +12,7 @@ import "./demo.css";
 import Facilities from "./Facilities";
 import Business from "./Business";
 
+
 function Approutes() {
   return (
    
@@ -25,6 +26,7 @@ function Approutes() {
         {/* <Route exact path="/card" element={<Card/>}></Route>  */}
         <Route exact path="/offers" element={<Facilities/>}></Route>
         <Route exact path="/form" element={<Business/>}></Route>
+      
       </Routes>
     </Router>
   );

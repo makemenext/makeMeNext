@@ -9,19 +9,20 @@ function Business() {
      email:"",
      ask:""
  })
- console.log(businessdata) 
  function changhandler(event){
+   const{name,value} = event.target
      setBusinessdata(prevBusinessdata=>{
       return {
         ...prevBusinessdata,
-        [event.target.name]:event.target.value,
+        [name]:value,
 
       }
      })
  }
-//  function submithandler(){
-//       console.log(businessdata)
-//  }
+ function submithandler(event){
+  event.preventDefault();    
+  console.log(businessdata)
+ }
   return (
     <div className='wrapper'>
       <div className='top-level'>
@@ -32,7 +33,7 @@ function Business() {
           </div>
       </div>
              
-      <form className='form-top'>
+      <form className='form-top' onSubmit={submithandler} >
         <div className='inner-form' >
 
         <div className='input-label'>
@@ -40,7 +41,7 @@ function Business() {
          <label className='label'> Enter Your Name </label>
         </div>
         <div className='input-feild' >
-        <input className='input-area' type="text" name='Name' onChange={changhandler} />  
+        <input className='input-area' type="text" name='Name' onChange={changhandler} value={businessdata.Name} />  
             </div>  
 
             
@@ -50,7 +51,7 @@ function Business() {
          <label className='label'> Enter Your Salon Name </label>
         </div>
         <div className='input-feild' >
-        <input className='input-area' type="text" name='SalonName' onChange={changhandler} />
+        <input className='input-area' type="text" name='SalonName' onChange={changhandler} value={businessdata.SalonName} />
            </div>  
 
           <div className='input-label'>
@@ -58,7 +59,7 @@ function Business() {
          <label className='label' > Enter Your Contact Number </label>
         </div>
           <div className='input-feild' >
-          <input className='input-area' type="text" name='number' onChange={changhandler} /> 
+          <input className='input-area' type="text" name='number' onChange={changhandler} value={businessdata.number} /> 
             
           </div>  
 
@@ -67,7 +68,7 @@ function Business() {
          <label className='label'> Enter Your Email Adress</label>
         </div>
         <div className='input-feild'>
-        <input className='input-area' type="text" name='email' onChange={changhandler} /> 
+        <input className='input-area' type="email" name='email' onChange={changhandler} value={businessdata.email} /> 
         </div>  
 
           <div className='input-label'>
@@ -75,7 +76,7 @@ function Business() {
          <label className='label'>Ask </label>
         </div>
         <div className='text-feild' >
-            <textarea className='txt-area'  name='ask' onChange={changhandler} />
+            <textarea className='txt-area'  name='ask' onChange={changhandler} value={businessdata.ask} />
            </div>  
               
           <div className='btn-div' >

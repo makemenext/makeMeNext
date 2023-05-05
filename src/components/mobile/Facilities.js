@@ -30,6 +30,8 @@ export default function Facilities() {
       <div>
         <h3><Card4/></h3>
       </div>
+
+      
      </Slider>
   );
 }
