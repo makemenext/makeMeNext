@@ -1,0 +1,79 @@
+.parentlocate{
+    display: flex;
+    flex-direction: column;
+}
+
+.locateme{
+
+width: 353.97px;
+height: 48px;
+
+
+background: #D9D9D9;
+border-radius: 12px;
+transform: rotate(0.14deg);
+display: flex;
+flex-direction: row;
+}
+input{
+    
+    width: 151px;
+height: 46px;
+    background-color: #D9D9D9;
+    border: none;
+    
+        
+    font-family: 'Poppins';
+    font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 24px;
+        color: black;
+       
+        
+        text-align: center;
+        
+        display: flex;
+        border-radius: 12px;
+        padding-left: 30px;
+        padding-right: 10px;
+        }
+
+.locatebutton{
+    display: flex;
+}
+.button1{
+    width: 139px;
+    height: 46px;
+    border: none;
+background: #D9D9D9;
+border-radius: 12px;
+font-family: 'Poppins';
+    font-style: normal;
+    font-size: 15px;
+padding-left: 16px;
+}
+.myicon{
+    width: 20px;
+    height: 20px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+    padding-left: 7.97px;
+}
+.findsalon{
+    padding-top: 20px;
+}
+.button2{
+    width: 139px;
+height: 42px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+border-radius: 15px;
+color: #D9D9D9;
+background-color: black;
+
+}

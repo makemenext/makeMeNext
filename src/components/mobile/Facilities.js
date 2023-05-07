@@ -6,9 +6,9 @@ import Card from "./Card";
 import Card2 from "./Card2";
 import Card3 from "./Card3";
 import Card4 from "./Card4";
-export default function Offers() {
+export default function Facilities() {
   var settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -30,10 +30,8 @@ export default function Offers() {
       <div>
         <h3><Card4/></h3>
       </div>
-      <div className="CuratedOffers">
-        Curated Offers
-      </div>
-     
-    </Slider>
+
+      
+     </Slider>
   );
 }

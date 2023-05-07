@@ -6,7 +6,11 @@
 .wrapper {
   overflow-x: hidden;
   overflow-y: scroll;
-  
+  background: linear-gradient(
+    180deg,
+    #cfddff 44.35%,
+    rgba(234, 237, 255, 0) 100%
+  );
 }
 
 .top-level{
@@ -15,7 +19,7 @@
     #cfddff 44.35%,
     rgba(234, 237, 255, 0) 100%
   );
-  border: 1px solid rgba(0, 0, 0, 0.09);
+  /* border: 1px solid rgba(0, 0, 0, 0.09);  */
   height: 100vh;
 }
 
@@ -135,4 +139,24 @@
   font-weight: 600;
   font-size: 17px;
   color: #FFFFFF;
+}
+
+.text-feild{
+  background: #FFFFFF;
+  border: 1px solid #D0BEBE;
+  border-radius: 10px;
+  width: 264px;
+  height: 150px;
+  margin-left: 17px;
+  margin-top: 10px;
+  display: flex;
+  padding-left: 9px;
+}
+
+.txt-area{
+  border: none;
+  outline: none;
+  width: 244px;
+  height: 142px;
+  padding-top: 5px;
 }

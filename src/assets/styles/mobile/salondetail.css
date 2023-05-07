@@ -1,0 +1,30 @@
+
+.imageparent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image1{
+    width: 326px;
+height: 198px;
+}
+.img1{
+    width: 326px;
+height: 198px;
+border-radius: 10px;
+}
+.salon_name{
+    width: 231px;
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    
+    color: #2553CA;
+
+}
