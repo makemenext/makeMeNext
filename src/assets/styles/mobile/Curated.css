@@ -1,0 +1,48 @@
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.wrap{
+    width: 338px;
+    height: 208px;
+    background: linear-gradient(180deg, #CFDDFF 44.35%, rgba(234, 237, 255, 0) 100%);
+    color:rgba(0, 0, 0, 0.09);
+    border-radius: 14px;
+    display: flex;
+    padding: 8px;
+    margin: 8px;
+}
+.left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 169px;
+    }
+
+.headd{ 
+width: 118px;
+font-family: 'Poppins';
+font-weight: 800;
+font-size: 18px;
+color: #4E4B48;
+}
+
+.book-button{
+        width: 120px;
+        height: 42px;
+        background: rgba(45, 45, 45, 1);
+        border-radius: 15px;
+        color: rgba(255, 255, 255, 1);    
+}
+
+.decript{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 8px;
+color: #000000;
+/* border: 1px solid #DADADA; */
+}
+
+.right{
+
+}
