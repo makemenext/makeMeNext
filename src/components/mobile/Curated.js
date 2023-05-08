@@ -12,7 +12,8 @@ function Curated() {
                   </div>
 
                   <button className='book-button'>
-                       Book Now
+                       <div className='book-now'> Book Now
+                       </div>
                   </button>
                   
                   <div className='decript'>
