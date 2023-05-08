@@ -3,8 +3,8 @@
   }
   
   .navbar {
-    /* background-color: var(--navBg);    */
-    height: 80px;
+    background-color: var(--navBg);
+    height: 60px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -25,8 +25,8 @@
   }
   
   .nav-menu {
-    background-color: var(--navBg); 
-    width: 250px;
+    background-color: var(--navBg);
+    width: 230px;
     height: 100vh;
     display: flex;
     justify-content: center;

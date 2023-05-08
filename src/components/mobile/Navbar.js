@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
-// import * as FaIcons from "react-icons/fa"; 
+import * as FaIcons from "react-icons/fa"; 
 import * as AiIcons from "react-icons/ai";
-
 import { IconContext } from "react-icons";
-import {RxHamburgerMenu} from "react-icons/rx"
-
-
 import { SidebarData } from "./NavBarData";
-
+import { RxHamburgerMenu } from "react-icons/rx";
 import "../../assets/styles/mobile/Navbar.css";
 
 export default function Navbar() {
@@ -28,8 +24,16 @@ export default function Navbar() {
           </a>
         </div>
         
-        <div style={{opacity: sidebar ? "0.7" : "1"}}>
-      
+        <div style={{opacity: sidebar ? "0.5" : "1"}}>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
         </div>
 
 
