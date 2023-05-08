@@ -16,7 +16,9 @@ import Price from "./Price";
 import Facilities from "./Facilities"
 import Business from "./Business"
 import Curated from "./Curated"
+import Notfound from "./Notfound";
 import Offersslider from "./Offersslider";
+
 
 
 function Approutes() {
@@ -43,6 +45,7 @@ function Approutes() {
         {/* <Route exact path="/card" element={<Card/>}></Route>  */}
         <Route exact path="/offers" element={<Facilities/>}></Route>
         <Route exact path="/form" element={<Business/>}></Route>
+        <Route exact path="*" element={<Notfound/>}></Route>
 
       </Routes>
     </Router>
