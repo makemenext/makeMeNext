@@ -16,7 +16,11 @@ import Price from "./Price";
 import Facilities from "./Facilities"
 import Business from "./Business"
 import Curated from "./Curated"
+<<<<<<< HEAD
 import Notfound from "./Notfound";
+=======
+import Offersslider from "./Offersslider";
+>>>>>>> 401d461f221bd92dc061383f35c1c94e2d5dfb55
 
 
 function Approutes() {
@@ -26,6 +30,7 @@ function Approutes() {
       <Routes>
         <Route exact path="/" element={<div>hello</div>}></Route>
         <Route exact path="/curated" element={<Curated/>}></Route>
+        <Route exact path="/offerslider" element={<Offersslider/>}></Route>
 
         <Route exact path="/login" element={<Loginform />}></Route>
         <Route exact path="/signup" element={<Signup />}></Route>
