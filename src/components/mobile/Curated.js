@@ -22,7 +22,7 @@ function Curated() {
          </div>
 
          <div className="right">
-         <img className="barber-img" src={Curatedimg} alt="Curatedimg.png" />
+         <img className="barbers-img" src={Curatedimg} alt="Curatedimg.png" />
          </div>
 </div>
 </div>
