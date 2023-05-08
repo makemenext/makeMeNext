@@ -1,4 +1,4 @@
-.parent{
+.parent-curated{
     display: flex;
     justify-content: center;
 }
@@ -44,5 +44,11 @@ color: #000000;
 }
 
 .right{
+    width: 200px;
+    height: 200px;
 
+}
+.barber-img{
+    width: 181px;
+    height: 174px;
 }

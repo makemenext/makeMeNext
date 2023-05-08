@@ -1,9 +1,10 @@
 import React from 'react'
 import "../../assets/styles/mobile/Curated.css";
+import Curatedimg from "../../assets/styles/mobile/Curatedimg.png";
 
 function Curated() {
   return (
-    <div className='parent'>
+    <div className='parent-curated'>
     <div className='wrap' >
          <div className='left' >
                   <div className="headd">
@@ -20,7 +21,7 @@ function Curated() {
          </div>
 
          <div className="right">
-         <img className="barber-img" src='' alt="Barber" />
+         <img className="barber-img" src={Curatedimg} alt="Curatedimg.png" />
          </div>
 </div>
 </div>
