@@ -16,11 +16,9 @@ import Price from "./Price";
 import Facilities from "./Facilities"
 import Business from "./Business"
 import Curated from "./Curated"
-<<<<<<< HEAD
 import Notfound from "./Notfound";
-=======
 import Offersslider from "./Offersslider";
->>>>>>> 401d461f221bd92dc061383f35c1c94e2d5dfb55
+
 
 
 function Approutes() {
