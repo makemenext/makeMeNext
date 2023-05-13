@@ -9,7 +9,7 @@ import Search from "./Search";
 import Checkprice from "./Checkprice";
 import Bookingconf from "./Bookingconf";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-
+import Timeslot from "./Timeslot";
 import "./demo.css";
 // import Offers from "./Offers";
 import Price from "./Price";
@@ -41,7 +41,7 @@ function Approutes() {
         {/* <Route exact path="/card" element={<Card/>}></Route>  */}
         <Route exact path="/offers" element={<Facilities/>}></Route>
         <Route exact path="/form" element={<Business/>}></Route>
-
+        <Route exact path="/timeslot" element={<Timeslot/>}></Route>
       </Routes>
     </Router>
   );
