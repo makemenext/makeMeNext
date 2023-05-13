@@ -6,8 +6,8 @@ const items = [
   { name: 'Discount', price: -10 },
   { name: 'Taxes & Charges', price: 2.2 },
   { name: 'To Pay', price: 212.2 },
-];
 
+]
 function ItemList() {
   return (
     <ul>
@@ -24,26 +24,42 @@ function ItemList() {
 function Cart() {
   return (
     <div className='parentt'>
+      <div className='book-slot'>
+      < button className='book-slot-button'>Book time slot</button>
+      </div>
 
-      {/* <div className="input-divv">
+       <div className="input-divv"> 
         <div className="input-btnn">
           
           <input
-            className="input-textt"
+            className="enter-code"
             placeholder=" Have a coupon Code?"
           />
+        
+          <button className='apply'>Apply</button>
 
         </div>
-      </div> */}
+      </div> 
   
       
       
     
     <div className='list'>
       <ItemList />
+      
+    </div>
+    <div className='two-button'>
+      <button className='left-button'> ₹ 212.2
+      </button>
+      <button className='right-button'>Pay</button>
     </div>
     </div>
   );
 }
 
+
 export default Cart;
+// const ButtonGroup = ({ leftButtonProp }) => {
+// {leftButtonProp}
+// }
+

@@ -9,7 +9,7 @@ import Search from "./Search";
 import Checkprice from "./Checkprice";
 import Bookingconf from "./Bookingconf";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-
+import Cart from "./Cart";
 import "./demo.css";
 // import Offers from "./Offers";
 import Price from "./Price";
@@ -29,7 +29,7 @@ function Approutes() {
         <Route exact path="/" element={<div>hello</div>}></Route>
         <Route exact path="/curated" element={<Curated/>}></Route>
         <Route exact path="/offerslider" element={<Offersslider/>}></Route>
-
+        <Route exact path="/cart" element={<Cart/>}></Route>
         <Route exact path="/login" element={<Loginform />}></Route>
         <Route exact path="/signup" element={<Signup />}></Route>
         <Route exact path="/services" element={<Showsalon />}></Route>
