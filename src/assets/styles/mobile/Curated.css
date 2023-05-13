@@ -9,7 +9,7 @@
     color:rgba(0, 0, 0, 0.09);
     border-radius: 14px;
     display: flex;
-    padding: 8px;
+    /* padding: 8px; */
     margin: 8px;
 }
 .left{
@@ -17,19 +17,31 @@
         flex-direction: column;
         justify-content: space-between;
         width: 169px;
+        padding-left: 21px;
     }
 
 .headd{ 
 width: 118px;
 font-family: 'Poppins';
+height: 75px;
 font-weight: 800;
 font-size: 18px;
 color: #4E4B48;
+padding-left: 3px;
+padding-top: 26px;
+padding-bottom: 80px;
 }
 
+.book-now{
+font-family: 'Poppins';
+/* font-style: normal; */
+font-weight: 600;
+font-size: 17px;
+/* line-height: 26px; */
+}
 .book-button{
-        width: 120px;
-        height: 42px;
+        width: 112px;
+        height: 38px;
         background: rgba(45, 45, 45, 1);
         border-radius: 15px;
         color: rgba(255, 255, 255, 1);    
@@ -44,11 +56,12 @@ color: #000000;
 }
 
 .right{
-    width: 200px;
+    width: 182px;
     height: 200px;
+    
 
 }
-.barber-img{
-    width: 181px;
+.barbers-img{
+    width: 175px;
     height: 174px;
 }
