@@ -11,7 +11,8 @@ import Bookingconf from "./Bookingconf";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Cart from "./Cart";
 import "./demo.css";
-// import Offers from "./Offers";
+
+
 import Price from "./Price";
 import Facilities from "./Facilities"
 import Business from "./Business"
@@ -42,11 +43,10 @@ function Approutes() {
         <Route exact path="/signup" element={<Signup/>}></Route>
         <Route exact path="/services" element={<Showsalon/>}></Route>
         <Route exact path="/search" element={<Search/>}></Route>
-        {/* <Route exact path="/card" element={<Card/>}></Route>  */}
+        <Route exact path="/card" element={<Card/>}></Route> 
         <Route exact path="/offers" element={<Facilities/>}></Route>
         <Route exact path="/form" element={<Business/>}></Route>
-        <Route exact path="*" element={<Notfound/>}></Route>
-
+        <Route exact path="/timeslot" element={<Timeslot/>}></Route>
       </Routes>
     </Router>
   );
