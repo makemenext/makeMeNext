@@ -2,51 +2,64 @@ import React, { useEffect } from "react";
 
 function Validation(props) {
   const errors = {
-    email: "",
-    password: "",
+
   };
 
   useEffect(() => {
     if (props.count >= 20) {
       alert("Exceeded the limit, try again later!");
     } else {
-      if (props.email == undefined || props.email == "") {
-        errors.email = "Undefined email value";
-        // alert("Enter all values, try again...");
-      } else {
-        if (ValidateEmail(props.email) == false) {
-          errors.email = "Improper Email Authentication";
-          // alert("Wrong email address, try again...");
-        }
+      if (props.email || props.email=="" ) {
+          errors.email = ValidateEmail(props.email)
       }
-      if (props.password == undefined || props.password == "") {
-        errors.password = "Undefined password value";
-        // alert("Enter all values, try again...");
-      } else {
-        if (ValidatePassword(props.password) !== true) {
-          errors.password = "Improper Password Authentication";
+      if (props.password) {
+          errors.password = ValidatePassword(props.password);
           // alert("Wrong password, try again...");
-        }
       }
+      if (props.contactNumber || props.contactNumber=="") {
+          errors.contactNumber= ValidateContactNumber(props.contactNumber);
+          // alert("Wrong password, try again...");  
+      }
+      if (props.text || props.text=="") {
+        errors.text= ValidateText(props.text);
+        // alert("Wrong password, try again...");  
+    }
     }
     console.log(errors);
-  }, [props]);
+  }, [props.count]);
 
   function ValidateEmail(email) {
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if (email.match(mailformat)) {
-      return true;
+      return ("true")
     } else {
-      return false;
+      return ("Improper Email authentication");
     }
   }
   //To check a password between 6 to 20 characters which contain at least one numeric digit, one uppercase and one lowercase letter
   function ValidatePassword(password) {
     var passw = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
     if (password.match(passw)) {
-      return true;
+      return("")
     } else {
-      return false;
+      return ("Improper Password authentication");
+    }
+  }
+
+  function ValidateContactNumber(number) {
+    if (number.length==10) {
+      return("")
+    } 
+    else{
+      return("Improper contact number")
+    }
+  }
+  function ValidateText(text) {
+    if (text.length>0) {
+      return("")
+    } 
+    else{
+      return("Improper text length")
     }
   }
 }

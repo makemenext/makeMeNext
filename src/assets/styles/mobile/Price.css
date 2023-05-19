@@ -1,59 +1,52 @@
-
-.root{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
-.parent{
-width: 325px;
-height: 72px;
-background: #EAF0FF;
-border-radius: 14px;
-display: flex;
-flex-direction: row;
-padding-top: 10px;
-
-
+.parent_price {
+  width: 325px;
+  height: 72px;
+  background: #eaf0ff;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  gap: 70px;
 }
-.child1{
-    display: flex;
-    flex-direction: column;
-    
-    
+.child1 {
+  display: flex;
+  flex-direction: column;
 }
-.child2{
-    direction: flex;
-    flex-direction: none;
-    justify-content: start;
-    align-items: start;
-
+.child2 {
+  direction: flex;
+  flex-direction: none;
+  justify-content: start;
+  align-items: start;
 }
-.haircut{
-    width: 154px;
-height: 20px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
+.haircut {
+  width: 154px;
+  height: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 
-color: #000000;
-padding-left: 10px;
-
-
+  color: #000000;
+  padding-left: 10px;
 }
-.rs{
-    width: 55px;
-height: 15px;
-font-family: 'Poor story';
-font-style: normal;
-font-weight: bolder;
-font-size: 20px;
-line-height: 20px;
-text-align: center;
+.rs {
+  width: 55px;
+  height: 15px;
+  font-family: "Poor story";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
 
-color: #000000;
-align-items: end;
-padding-top: 4px;
-
+  color: #000000;
+  align-items: end;
+  padding-top: 4px;
 }

@@ -7,11 +7,9 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import "../../assets/styles/mobile/Navbar.css";
 
 export default function Navbar() {
+  
   const [sidebar, setSidebar] = useState(false);
-
   const showSidebar = () => setSidebar(!sidebar);
-   
-
 
   return (
     <>

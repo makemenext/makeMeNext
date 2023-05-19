@@ -1,30 +1,30 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Loginform from "./Loginform";
 import Header from "./Header";
 import Showsalon from "./Showsalon";
-import Changingtext from "./Changingtext"
+import Changingtext from "./Changingtext";
 import Card from "./Card";
 import Signup from "./Signup";
 import Search from "./Search";
 import Checkprice from "./Checkprice";
 import Bookingconf from "./Bookingconf";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Salondetail from "./salondetail";
 import Cart from "./Cart";
+import Timeslot from "./Timeslot";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import "./demo.css";
 
 
 import Price from "./Price";
-import Facilities from "./Facilities"
-import Business from "./Business"
-import Curated from "./Curated"
+import Facilities from "./Facilities";
+import Business from "./Business";
+import Curated from "./Curated";
 import Notfound from "./Notfound";
 import Offersslider from "./Offersslider";
 
-
-
 function Approutes() {
   return (
-   
     <Router>
       <Routes>
         <Route exact path="/" element={<div>hello</div>}></Route>
@@ -33,7 +33,7 @@ function Approutes() {
         <Route exact path="/cart" element={<Cart/>}></Route>
         <Route exact path="/login" element={<Loginform />}></Route>
         <Route exact path="/signup" element={<Signup />}></Route>
-        <Route exact path="/services" element={<Showsalon />}></Route>
+        <Route exact path="/salons" element={<Showsalon />}></Route>
         <Route exact path="/search" element={<Search />}></Route>
         <Route exact path="/card" element={<Card />}></Route>
         <Route exact path="/price" element={<Price />}></Route>
@@ -41,12 +41,14 @@ function Approutes() {
         <Route exact path="/bookingconf" element={<Bookingconf />}></Route>
         <Route exact path="/login" element={<Loginform/>}></Route>
         <Route exact path="/signup" element={<Signup/>}></Route>
-        <Route exact path="/services" element={<Showsalon/>}></Route>
+        <Route exact path="/services" element={<Salondetail/>}></Route>
         <Route exact path="/search" element={<Search/>}></Route>
         <Route exact path="/card" element={<Card/>}></Route> 
         <Route exact path="/offers" element={<Facilities/>}></Route>
         <Route exact path="/form" element={<Business/>}></Route>
         <Route exact path="/timeslot" element={<Timeslot/>}></Route>
+        {/* <Route exact path="/card" element={<Card/>}></Route>  */}
+        <Route exact path="*" element={<Notfound />}></Route>
       </Routes>
     </Router>
   );

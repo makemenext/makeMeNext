@@ -2,11 +2,12 @@ import React from "react";
 import "../../assets/styles/mobile/Showsalon.css";
 import { GoLocation } from "react-icons/go";
 import { salonData } from "../../data/salonData.js";
+import { Link } from "react-router-dom";
 function Showsalon() {
   return (
     <>
       {salonData.api_salonData.map((data, i) => (
-        <div className="wrapper">
+        <Link className="wrapper" to={"/services"} state={{ data: data.unique_name }}>
           <div className="main-div">
             <img className="salon-img" src={data.display_photo} alt="" />
             <div className="info-section">
@@ -21,7 +22,7 @@ function Showsalon() {
               <div className="adress">{data.location_description}r</div>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </>
   );
