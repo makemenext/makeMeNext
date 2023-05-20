@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import Loginform from "./Loginform";
-import Header from "./Header";
+// import Header from "./Header";
 import Showsalon from "./Showsalon";
 import Changingtext from "./Changingtext"
 import Card from "./Card";
@@ -19,7 +19,7 @@ import Business from "./Business"
 import Curated from "./Curated"
 import Notfound from "./Notfound";
 import Offersslider from "./Offersslider";
-
+import Timeslot from "./Timeslot";
 
 
 function Approutes() {
@@ -46,6 +46,7 @@ function Approutes() {
         <Route exact path="/card" element={<Card/>}></Route> 
         <Route exact path="/offers" element={<Facilities/>}></Route>
         <Route exact path="/form" element={<Business/>}></Route>
+        
         <Route exact path="/timeslot" element={<Timeslot/>}></Route>
       </Routes>
     </Router>

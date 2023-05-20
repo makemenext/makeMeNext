@@ -5,6 +5,7 @@ import Approutes from "./components/mobile/Approutes";
 // import Navweb from "./components/desktop/Navweb";
 // import Navapp from "./components/mobile/Navapp"; 
 // import Header from "./components/desktop/Header"
+import Header from "./components/mobile/Header";
 
 
 import "./assets/styles/desktop/global.css"
@@ -24,7 +25,7 @@ function App() {
       {screenWidth == 0 ? (
         ""
       ) : screenWidth <= 700 ? (
-        <Approutes />
+        <><Header /><Approutes /></>
         
       ) : (
         <Webroutes />

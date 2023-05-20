@@ -10,7 +10,7 @@ const items = [
 ]
 function ItemList() {
   return (
-    <ul>
+    <ul className='no-bullets'>
       {items.map((item, index) => (
         <li key={index}>
           <div className='name' >{item.name}</div>
@@ -24,7 +24,7 @@ function ItemList() {
 function Cart() {
   return (
     <div className='parentt'>
-      <div className='book-slot'>
+      <div className='book-myslot'>
       < button className='book-slot-button'>Book time slot</button>
       </div>
 
