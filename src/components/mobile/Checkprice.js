@@ -2,7 +2,7 @@ import React from 'react'
 import "../../assets/styles/mobile/Checkprice.css";
 
 
-function Checkprice() {
+function Checkprice(props) {
   return (
     <div className='root'>
        
@@ -10,10 +10,10 @@ function Checkprice() {
         <div className='child1'>
             
             <div className='haircut'>
-                Hair Cut
+            {props.service_name}
             </div>
             <div className='rs'>
-            ₹70
+            ₹{props.service_amount}
             </div>
         
 
