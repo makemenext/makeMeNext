@@ -12,7 +12,7 @@ import Salondetail from "./salondetail";
 import Cart from "./Cart";
 import Timeslot from "./Timeslot";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import Payment from "./Payment";
 import "./demo.css";
 
 
@@ -22,6 +22,8 @@ import Business from "./Business";
 import Curated from "./Curated";
 import Notfound from "./Notfound";
 import Offersslider from "./Offersslider";
+import Loaction from "./Loaction";
+import Locationnav from "./Locationnav";
 
 function Approutes() {
   return (
@@ -46,10 +48,11 @@ function Approutes() {
         <Route exact path="/card" element={<Card/>}></Route> 
         <Route exact path="/offers" element={<Facilities/>}></Route>
         <Route exact path="/form" element={<Business/>}></Route>
-        
+        <Route exact path="/location" element={<Loaction/>}></Route>
         <Route exact path="/timeslot" element={<Timeslot/>}></Route>
-        {/* <Route exact path="/card" element={<Card/>}></Route>  */}
+        <Route exact path="/locationnav" element={<Locationnav/>}></Route> 
         <Route exact path="*" element={<Notfound />}></Route>
+        <Route exact path="/payment" element={<Payment/>}></Route> 
       </Routes>
     </Router>
   );
