@@ -22,8 +22,12 @@ import Business from "./Business";
 import Curated from "./Curated";
 import Notfound from "./Notfound";
 import Offersslider from "./Offersslider";
+<<<<<<< Updated upstream
 import Loaction from "./Loaction";
 import Locationnav from "./Locationnav";
+=======
+import Changelocation from "./Changelocation";
+>>>>>>> Stashed changes
 
 function Approutes() {
   return (
@@ -48,7 +52,12 @@ function Approutes() {
         <Route exact path="/card" element={<Card/>}></Route> 
         <Route exact path="/offers" element={<Facilities/>}></Route>
         <Route exact path="/form" element={<Business/>}></Route>
+<<<<<<< Updated upstream
         <Route exact path="/location" element={<Loaction/>}></Route>
+=======
+        <Route exact path="/Changelocation" element={<Changelocation/>}></Route>
+        
+>>>>>>> Stashed changes
         <Route exact path="/timeslot" element={<Timeslot/>}></Route>
         <Route exact path="/locationnav" element={<Locationnav/>}></Route> 
         <Route exact path="*" element={<Notfound />}></Route>

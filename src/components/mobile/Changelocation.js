@@ -2,11 +2,21 @@ import React from 'react'
 import "../../assets/styles/mobile/Changelocation.css";
 import { SlLocationPin } from 'react-icons/sl';
 import {BiCurrentLocation} from 'react-icons/bi'
+import { SlArrowDown} from 'react-icons/sl';
 
 
 function Changelocation() {
   return (
     <div className='parent-changelocation'>
+        <div className='loca'>
+            
+            Location 
+            <div className='locaicon'>
+                <SlArrowDown/>
+                
+
+            </div>
+        </div>
         
         <div className='lower-cl'>
         <div className='upper-cl'>
