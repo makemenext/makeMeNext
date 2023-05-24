@@ -3,7 +3,7 @@
   }
   
   .navbar {
-    background-color: var(--navBg);
+    /* background-color: var(--navBg); */
     height: 60px;
     display: flex;
     justify-content: end;
@@ -21,7 +21,7 @@
   .bars{
     color: rgb(23 24 23);
     color-scheme: black;
-    background-color: black; 
+    /* background-color: black;  */
   }
   
   .nav-menu {

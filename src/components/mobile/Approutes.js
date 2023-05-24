@@ -15,7 +15,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Payment from "./Payment";
 import "./demo.css";
 
-
+import Double from "./Double"
 import Price from "./Price";
 import Facilities from "./Facilities";
 import Business from "./Business";
@@ -53,6 +53,7 @@ function Approutes() {
         <Route exact path="/locationnav" element={<Locationnav/>}></Route> 
         <Route exact path="*" element={<Notfound />}></Route>
         <Route exact path="/payment" element={<Payment/>}></Route> 
+        <Route exact path="/double" element={<Double/>}></Route> 
       </Routes>
     </Router>
   );

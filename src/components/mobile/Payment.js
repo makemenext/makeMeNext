@@ -10,7 +10,7 @@ function Payment() {
                <div className='payment' >Payment Options</div>
                
           </div>
-          <div >
+          <div className='head-rec' >
             <div className='pay-for'>
           Pay for your booking at Kanshu Unisex Salon
           </div>
@@ -28,6 +28,48 @@ function Payment() {
 
           </div>
           <div className='recommended-box'></div>
+          <div className='upi-heading'>
+          <img
+          className="recommended-img"
+          // src="https://drive.google.com/file/d/1NWjrv0cMooHi_XXVHa7I3A7QgbqW4ruk/view?usp=share_link"
+          // alt="recommended-img"
+        />
+          <div className='upi'>
+          
+            UPI
+          </div>
+          
+
+          </div>
+          <div className='upi-box'></div>
+          <div className='netbanking-heading'>
+          <img
+          className="recommended-img"
+          // src="https://drive.google.com/file/d/1NWjrv0cMooHi_XXVHa7I3A7QgbqW4ruk/view?usp=share_link"
+          // alt="recommended-img"
+        />
+          <div className='netbanking'>
+          
+            Netbanking
+          </div>
+          
+
+          </div>
+          <div className='netbanking-box'></div>
+          <div className='credit-debit-heading'>
+          <img
+          className="recommended-img"
+          // src="https://drive.google.com/file/d/1NWjrv0cMooHi_XXVHa7I3A7QgbqW4ruk/view?usp=share_link"
+          // alt="recommended-img"
+        />
+          <div className='credit-debit'>
+          
+            Credit Card and Debit Card
+          </div>
+          
+
+          </div>
+          <div className='credit-debit-box'></div>
         </div>
 
   )

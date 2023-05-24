@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="navbar">
           <a to="#" className="menu-bars">
             {/* <FaIcons.FaBars  className="bars" onClick={showSidebar}/>  */}
-            <RxHamburgerMenu className="bars" onClick={showSidebar}/>
+            <RxHamburgerMenu className="bars" style={{color: "#FFF !important"}} onClick={showSidebar}/>
           </a>
         </div>
         
