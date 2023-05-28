@@ -15,7 +15,7 @@ transform: rotate(0.14deg);
 display: flex;
 flex-direction: row;
 }
-input{
+.parentlocate input{
     
     width: 151px;
 height: 46px;

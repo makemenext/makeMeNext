@@ -38,7 +38,7 @@ export default function Navbar() {
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
             <li className="navbar-toggle">
-              <a to="#" className="menu-bars">
+              <a to="#" syle={{color:"#fff !important"}} className="menu-bars">
                 <AiIcons.AiOutlineClose />
               </a>
             </li>

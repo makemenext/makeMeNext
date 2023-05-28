@@ -43,7 +43,6 @@ function Approutes() {
         <Route exact path="/login" element={<Loginform/>}></Route>
         <Route exact path="/signup" element={<Signup/>}></Route>
         <Route exact path="/services" element={<Salondetail/>}></Route>
-        <Route exact path="/search" element={<Search/>}></Route>
         <Route exact path="/card" element={<Card/>}></Route> 
         <Route exact path="/offers" element={<Facilities/>}></Route>
         <Route exact path="/form" element={<Business/>}></Route>
