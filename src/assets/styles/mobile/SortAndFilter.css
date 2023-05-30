@@ -1,0 +1,19 @@
+.sort-and-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .sort-and-filter-container {
+    /* background-color: #f5f5f5; */
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+    display: none;
+  }
+  
+  .sort-and-filter:hover .sort-and-filter-container {
+    display: block;
+  }
+  
