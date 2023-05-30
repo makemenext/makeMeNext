@@ -36,7 +36,7 @@ const ApplyOffer = () => {
           
           <input
             className="enter-code"
-            placeholder=" Have a coupon Code?"
+            placeholder="Have a coupon Code?"
             type="text"
         id="coupon-code"
         value={couponCode}
