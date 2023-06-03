@@ -30,14 +30,24 @@ const ApplyOffer = () => {
 
   return (
     <div>
-      <label htmlFor="coupon-code">Coupon Code:</label>
-      <input
-        type="text"
+
+<div className="input-divv"> 
+        <div className="input-btnn">
+          
+          <input
+            className="enter-code"
+            placeholder="Have a coupon Code?"
+            type="text"
         id="coupon-code"
         value={couponCode}
         onChange={handleCouponCodeChange}
-      />
-      <button onClick={handleApplyOffer}>Apply</button>
+          />
+        
+          <button className='apply'onClick={handleApplyOffer}>Apply</button>
+
+        </div>
+      </div> 
+      
       <p>Discount Amount: {discountAmount}%</p>
     </div>
   );

@@ -23,6 +23,7 @@ import Curated from "./Curated";
 import Notfound from "./Notfound";
 import Offersslider from "./Offersslider";
 import Changelocation from "./Changelocation";
+import SortAndFilter from "./SortAndFilter";
 import Forgotpassword from "./Forgotpassword";
 import Resetpassword from "./Resetpassword";
 
@@ -49,7 +50,7 @@ function Approutes() {
         <Route exact path="/offers" element={<Facilities/>}></Route>
         <Route exact path="/form" element={<Business/>}></Route>
         <Route exact path="/Changelocation" element={<Changelocation/>}></Route>
-        
+        <Route exact path="/sortandfilter" element={<SortAndFilter/>}></Route> 
         <Route exact path="/timeslot" element={<Timeslot/>}></Route>
         <Route exact path="/locationnav" element={<Locationnav/>}></Route> 
         <Route exact path="*" element={<Notfound />}></Route>

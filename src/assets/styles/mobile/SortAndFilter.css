@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.pill-button {
+  background: #FFF;
+  z-index: 2;
+}
+.parent-sf-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: -510px;
+  
+  font-family: Montserrat-Light;
+}
+
+.options {
+  position: fixed;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 0px 15px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  gap: 17px;
+  cursor: pointer;
+  width: 240px;
+  height: 40px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 5px;
+  font-size: 18px;
+}
+.sort {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 5px;
+  font-size: 18px;
+}
+.filter-text{
+  padding-left: 5px;
+}
+
+.sort-text{
+  padding-left: 5px;
+}
+.seperator{
+  color:black;
+  background: black;
+  width: 1px;
+}
