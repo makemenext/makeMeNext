@@ -1,174 +1,215 @@
-.parent-payment{
-    /* border: 2px solid red; */
-    
-    /* height: 68px; */
+.parent-payment {
+  /* border: 2px solid red; */
+
+  /* height: 68px; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-heading {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  align-self: start;
+}
+
+.payment {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 12px;
+
+  text-align: center;
+}
+.head-rec {
+  align-self: start;
+}
+
+.arrow {
+  width: 15.84px;
+  height: 7.1px;
+  /* border: 1.5px solid #000000; */
+}
+.pay-for {
+  height: 22px;
+  transform: rotate(0.12deg);
+  padding-left: 56px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 16px;
+
+  color: #4f4c4c;
+}
+.recommended {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  padding-left: 16px;
+  color: #000000;
+}
+.recommended-box {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 322px;
+  height: 209px;
+  text-align: center;
+  margin: 14px;
+  background: #eaf0ff;
+  border-radius: 16px;
+  /* display: flex;
+  flex-direction: column; */
+}
+.recommended-img {
+  width: 6px;
+  height: 27px;
+
+  background: #fc979d;
+  border-radius: 21px;
+}
+.recommended-heading {
+  display: flex;
+  padding-left: 30px;
+}
+.upi-box {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 322px;
+  height: 246px;
+  text-align: center;
+  margin: 14px;
+  background: #eaf0ff;
+  border-radius: 16px;
+}
+.upi-heading {
+  display: flex;
+  padding-left: 30px;
+  align-self: start;
+}
+.upi {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  padding-left: 16px;
+  color: #000000;
+}
+
+.netbanking-box {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 322px;
+  height: 209px;
+  text-align: center;
+  margin: 14px;
+  background: #eaf0ff;
+  border-radius: 16px;
+}
+.netbanking-heading {
+  display: flex;
+  padding-left: 30px;
+  align-self: start;
+}
+.netbanking {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  padding-left: 16px;
+  color: #000000;
+}
+
+.credit-debit-box {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 322px;
+  height: 175px;
+  text-align: center;
+  margin: 14px;
+  background: #eaf0ff;
+  border-radius: 16px;
+}
+.credit-debit-heading {
+  display: flex;
+  padding-left: 30px;
+  align-self: start;
+}
+.credit-debit {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  padding-left: 16px;
+  color: #000000;
+}
+
+.recom-first {
+    display: flex;
+    height: 50px;
     align-items: center;
+    width: 322px;
+    justify-content: space-between;
+}
+.recom-second {
     display: flex;
-    flex-direction: column
-    
+    height: 50px;
+    align-items: center;
+}
+.recom-third{
+  display: flex;
+  height: 50px;
+  align-items: center;
 }
 
-.payment-heading{
+.recom-icon{
+    width: 44px;
+    height: 30px;
+    margin-right:12px ;
+}
+
+.recom-name{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+
+
+}
+
+.check{
+    height: 19px;
+    width: 19px;
+    justify-self: flex-end;
+}
+
+.in-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.child-recom{
     display: flex;
     align-items: center;
-    margin-left: 20px;
-    align-self: start;
-}
-
-.payment{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    padding-left: 12px;
-
-  
-text-align: center;
-}
-.head-rec{
-    align-self: start;
-}
-
-.arrow{
-    width: 15.84px;
-    height: 7.1px;
-    /* border: 1.5px solid #000000; */
-    
-}
-.pay-for{
-    
-
-height: 22px;
-transform: rotate(0.12deg);
-padding-left: 56px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 800;
-font-size: 11px;
-line-height: 16px;
-
-color: #4F4C4C;
-}
-.recommended{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-
-
-padding-left:16px ;
-color: #000000;
-}
-.recommended-box{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    width: 322px;
-height: 209px;
-text-align: center;
-margin: 14px;
-background: #EAF0FF;
-border-radius: 16px;
-}
-.recommended-img{
-    width: 6px;
-height: 27px;
-
-
-background: #FC979D;
-border-radius: 21px;
-}
-.recommended-heading{
-    display: flex;
-    padding-left: 30px;
-}
-.upi-box{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    width: 322px;
-height: 246px;
-text-align: center;
-margin: 14px;
-background: #EAF0FF;
-border-radius: 16px;
-}
-.upi-heading{
-    display: flex;
-    padding-left: 30px;
-    align-self: start;
-}
-.upi{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-
-
-padding-left:16px ;
-color: #000000;
-}
-
-
-.netbanking-box{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    width: 322px;
-    height: 209px;
-text-align: center;
-margin: 14px;
-background: #EAF0FF;
-border-radius: 16px;
-}
-.netbanking-heading{
-    display: flex;
-    padding-left: 30px;
-    align-self: start;
-}
-.netbanking{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-
-
-padding-left:16px ;
-color: #000000;
-}
-
-.credit-debit-box{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    width: 322px;
-    height: 175px;
-text-align: center;
-margin: 14px;
-background: #EAF0FF;
-border-radius: 16px;
-}
-.credit-debit-heading{
-    display: flex;
-    padding-left: 30px;
-    align-self: start;
-}
-.credit-debit{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-
-
-padding-left:16px ;
-color: #000000;
+    width: 165px;
+    margin-right: 6.2rem;
 }

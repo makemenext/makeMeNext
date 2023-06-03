@@ -23,6 +23,8 @@ import Curated from "./Curated";
 import Notfound from "./Notfound";
 import Offersslider from "./Offersslider";
 import Changelocation from "./Changelocation";
+import Forgotpassword from "./Forgotpassword";
+import Resetpassword from "./Resetpassword";
 
 function Approutes() {
   return (
@@ -53,6 +55,8 @@ function Approutes() {
         <Route exact path="*" element={<Notfound />}></Route>
         <Route exact path="/payment" element={<Payment/>}></Route> 
         <Route exact path="/double" element={<Double/>}></Route> 
+        <Route exact path="/forgotpassword" element={<Forgotpassword/>}></Route> 
+        <Route exact path="/resetpassword" element={<Resetpassword/>}></Route>
       </Routes>
     </Router>
   );
